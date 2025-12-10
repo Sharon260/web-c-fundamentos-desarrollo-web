@@ -1,13 +1,26 @@
 
-#unicobox {
-  background-color: blueviolet;
+
+p, ul, li {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: large;
+    font-style:normal;
 }
-h2 {
-  background-color: chartreuse;
+span {
+    font-style: oblique;
+    font-weight:bold;
+}
+.imagen1 {
+    border-radius: 8px;
+    height: 40vh;
+    width: auto;
+    margin: auto;
 }
 
-.box {
-  background-color: aquamarine;
+.imagen2{
+    border-radius: 8px;
+    height: 30vh;
+    width: auto;
+    
 }
 .science-gothic {
   font-family: "Science Gothic", sans-serif;
@@ -17,7 +30,7 @@ h2 {
 
 
 /* Escenario plataformas */
-        .escenario {
+       /*  .escenario {
             position: relative;
             width:  100vw;
             height: 100vh;
@@ -107,4 +120,5 @@ h2 {
             right: 20%;
             width: 220px;
             height: 25px;
-        }
+        } */
+
