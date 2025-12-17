@@ -1,0 +1,43 @@
+
+.cookie-footer {
+
+  position: fixed; /* Siempre visible al final de la pantalla */
+
+  bottom: 0; 
+
+  left: 0;
+
+  right: 0;
+
+  background-color: #222; 
+
+  color: #fff; 
+
+  padding: 1em;
+
+  display: flex; 
+
+  justify-content: space-between; 
+
+  align-items: center;
+
+}
+
+.cookie-footer button {
+
+  background-color: #4caf50; 
+
+  color: white;
+
+  border: none;
+
+  padding: 0.5em 1em;
+
+  cursor: pointer;
+
+}
+
+.cookie-footer button:hover {
+
+  background-color: #45a049;
+}
