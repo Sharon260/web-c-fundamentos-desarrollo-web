@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.logo-img {
+  width: 50px;
+  border-radius: 60%;
+
+}
+
+.banner {
+  display:flex;
+  max-width: 1250px;
+  border-radius: 8px;
+  margin: auto;
+  background-color: #1e3932;
+  height: 400px;
+  margin:  0 5px 15px 5px;
+  border-radius: 8px;
+  overflow: hidden;
+
+
+}
+
+.banner-info, .banner-img {
+  flex-grow: 1;
+  width: 50%;
+}
+.banner-info {
+padding: 100px 0 100px 50px;
+background-color: #1e3932;
+color: white;
+}
+
+.banner-info a {
+  padding: 15px 24px;
+  border-radius: 25px;
+  border: 1;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+.banner-info h1 {
+  font-family: sans-serif;
+  
+}
+.banner-img{
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background-image: url( '/06-navbar-footer/imagenes/fondo.png');
+  background-size: cover;
+  border-radius: 8px;
+
+}
+.banner-img .chocolate-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: auto;
+  
+  
+  
+
+} 
+
+.banner-img .malteada {
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+  width: 250px;
+  max-height: 100%;
+  margin: auto;
+}
+
+
+
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 1300px;
+  gap: 40px;
+  margin: auto;
+}
+footer {
+  display: flex;
+  padding: 64px 20px 120px;
+  gap: 40px;
+  background-color: #1e3932;
+  justify-content: flex-start;
+  color: white;
+  
+}
+footer a {
+  color: #ffffffb3;
+  text-decoration: none;
+  font-size: 14px;
+  transition-duration: 0.5s;
+}
+footer a:hover
+{
+  color: white;
+  cursor: pointer;
+}
+footer h3 {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+footer nav{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+
