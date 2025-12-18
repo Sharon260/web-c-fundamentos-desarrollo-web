@@ -57,7 +57,7 @@ color: white;
   position: relative;
   height: 100%;
   overflow: hidden;
-  background-image: url( '/06-navbar-footer/imagenes/fondo.png');
+  background-image: url( 'https://img.freepik.com/foto-gratis/diseno-diseno-fondo-pared-marron-liso-abstracto-plantilla-web-informe-comercial-color-degradado-circulo-suave_1258-54600.jpg');
   background-size: cover;
   border-radius: 8px;
 
@@ -68,10 +68,7 @@ color: white;
   align-items: center;
   overflow: hidden;
   margin: auto;
-  
-  
-  
-
+  z-index: 1;
 } 
 
 .banner-img .malteada {
@@ -82,7 +79,6 @@ color: white;
   max-height: 100%;
   margin: auto;
 }
-
 
 
 
@@ -101,7 +97,8 @@ footer {
   background-color: #1e3932;
   justify-content: flex-start;
   color: white;
-  
+  margin-top: 30px;
+  z-index: 10;
 }
 footer a {
   color: #ffffffb3;
