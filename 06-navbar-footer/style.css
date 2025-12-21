@@ -5,12 +5,89 @@
   font-family: sans-serif;
 }
 
+/* header */
+
 .logo-img {
   width: 50px;
   border-radius: 60%;
 
 }
+header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #bdbdbd;
+}
 
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  padding: 15px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header-left nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition-duration: .8s;
+}
+
+.header-left nav a:hover {
+  color: #00754a;
+}
+
+.header-right {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.locacion a {
+  text-decoration: none;
+  color: black;
+  transition-duration: .5s;
+}
+
+.locacion a:hover {
+  color: #00754a;
+}
+
+.btn-registro {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-iniciar {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* header */
+
+/* banner */
 .banner {
   display:flex;
   max-width: 1250px;
@@ -79,8 +156,9 @@ color: white;
   max-height: 100%;
   margin: auto;
 }
+/* banner */
 
-
+/* footer */
 
 .footer-container {
   width: 100%;
@@ -121,4 +199,104 @@ footer nav{
   row-gap: 15px;
 }
 
+/* footer */
 
+/* Sección Caracterírsticas */
+
+.letras {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.layout-starbucks {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.left, .right, .center {
+  display: flex;
+  width: 298.4px;
+  height: 211px;
+  column-gap: 20px;
+  align-items: center;
+  margin: 0 15px ;
+}
+
+
+.layout-starbucks img {
+  width: 72px;
+  height: 72px;
+  align-items: center;
+}
+
+.layout-starbucks h3{
+  margin-bottom: 15px;
+}
+
+/* Tablet */
+@media screen and (max-width: 890px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .header-left {
+    justify-content: center;
+  }
+
+  .header-right {
+    justify-content: center;
+  }
+
+  .layout-starbucks {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+
+  .imagen1,
+  .imagen2,
+  .imagen3 {
+    align-self: center;
+    
+  }
+
+  .left,
+  .center,
+  .right {
+    height: auto;
+    width: auto;
+    padding: 0 30px;
+  }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .header-left {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .header-right {
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 15px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+}

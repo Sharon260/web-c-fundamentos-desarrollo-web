@@ -144,4 +144,9 @@ cursor: pointer;
   margin-left: 10px;
 }
 
+/* Media queries */
+@media screen and (max-width:600px) {
+  
+}
+
 
