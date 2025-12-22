@@ -15,6 +15,91 @@
   color: #fff;
 }
 
+.portfolio-container {
+
+  display: grid;
+
+  grid-template-areas:
+
+    "header header"
+
+    "main-content sidebar"
+
+    "footer footer";
+
+  grid-template-columns: 2fr 1fr;
+
+  gap: 20px;
+
+}
+
+.header {
+
+  grid-area: header;
+
+  background-color: #ffcccb;  /* Color rosado para distinguir el header */
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+.main-content {
+
+  grid-area: main-content;
+
+  background-color: #add8e6;  /* Color azul claro para el contenido principal */
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+.sidebar {
+
+  grid-area: sidebar;
+
+  background-color: #90ee90;  /* Color verde claro para la barra lateral */
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+.footer {
+
+  grid-area: footer;
+
+  background-color: #f0e68c;  /* Color amarillo claro para el footer */
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+@media (max-width: 768px) {
+
+  .portfolio-container {
+
+    grid-template-areas:
+
+      "header"
+
+      "main-content"
+
+      "sidebar"
+
+      "footer";
+
+    grid-template-columns: 1fr;
+
+  }
+
+}
 
 @media screen and (max-width: 1200px) {
   .box {
@@ -24,6 +109,7 @@
     align-items: center;
   }
 }
+
 @media screen and (max-width: 768px) {
   .box {
     background-color: rgb(43, 226, 83);
@@ -41,3 +127,4 @@
     align-items: center;
   }
 }
+
